@@ -32,7 +32,8 @@ Read first: `docs/vision.md`, `docs/styleguide.md`. Decisions: `docs/adr/`.
 
 ## Skills
 
-Shared skills live in `.agents/skills/`, one folder each, `SKILL.md` inside. That folder is the
+Shared skills live in `.agents/skills/`, one folder each, `SKILL.md` inside: `plan-to-issues`
+(split a plan, issue shape, closing rule) and `preview` (public preview and its clean-up). That folder is the
 one source for every harness on the team. If yours loads skills from somewhere else, point it
 here (a link or a config entry). Don't copy: copies drift.
 
